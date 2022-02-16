@@ -34,7 +34,14 @@
     src: url("fonts/pt-sans-narrow-bold.woff2") format("woff2");
     font-display: swap;
   }
+html{
+  height: 100%;
+}
+
   body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
     font-family: "PT Sans", sans-serif;
     font-size: 16px;
     line-height: 24px;
@@ -46,6 +53,20 @@
     color: #000000;
     background-color: #ffffff;
   }
+  .navigation{
+    margin: 0 auto;
+    display: flex;
+    width: 1060px;
+  }
+  .navigation-list{
+    width: 420px;
+    margin: 0;
+    padding: 0;
+  }
+  .navigation-user{
+    width: 230px;
+    margin-left: auto;
+  }
   .navigation-link {
     font-family: "PT Sans Narrow", sans-serif;
     line-height: 22px;
@@ -56,12 +77,90 @@
     text-decoration: none;
     text-transform: uppercase;
   }
+  .main-container{
+    flex-grow: 1;
+
+  }
   .main-index {
       color: black;
       background-color: blanchedalmond;
     background-image: url("images/background.jpg");
     background-size: 100% auto;
     background-repeat: no-repeat;
+  }
+  .page-container{
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .welcome{
+    display: block;
+    margin: 0 auto;
+  }
+  .advantages visually-hidden{
+    display: block;
+    margin: 0 auto;
+  }
+  .photo-1{
+    width: 800px;
+    justify-self: end;
+  }
+  .feature-item major-item feature-real-city{
+    width: 400px;
+    justify-self: start;
+  }
+  .advantages-item{
+    width: 400;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #000000;
+  }
+  .photo-2{
+    width: 800px;
+    justify-self: start;
+  }
+  feature-item major-item feature-bridge{
+    width: 400;
+    justify-content: end;
+  }
+  .feature-item common-item{
+    width: 400;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #000000;
+  }
+  .hotels{
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .appointment{
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .footer-social {
+    margin-left: auto;
+    max-width: 115px;{
+  } 
+  .navigation-logo{
+    width: 170px;
+    height: 70;
+  }
+  .catalog-products{
+    display: flex;
+  }
+  .catalog-filter{
+    width: 1200px;
+  justify-content: space-around;
+  }
+  .button{
+    width: 1200px;
+    justify-content: space-around;
+    
   }
   .visually-hidden{
       color: black;
