@@ -109,7 +109,7 @@ html{
     justify-self: start;
   }
   .advantages-item{
-    width: 400;
+    width: 400px;
     display: flex;
     justify-content: space-between;
     margin: 0;
@@ -122,11 +122,11 @@ html{
     justify-self: start;
   }
   feature-item major-item feature-bridge{
-    width: 400;
+    width: 400px;
     justify-content: end;
   }
   .feature-item common-item{
-    width: 400;
+    width: 400px;
     display: flex;
     justify-content: space-between;
     margin: 0;
@@ -148,7 +148,7 @@ html{
   } 
   .navigation-logo{
     width: 170px;
-    height: 70;
+    height: 70px;
   }
   .catalog-products{
     display: flex;
@@ -289,7 +289,7 @@ html{
     font-weight: 700;
     font-style: normal;
     font-size: 30px;
-    line: height 36px;px;
+    line-height:  36px;
     text-align: center;
   } 
   .hotels-header {
