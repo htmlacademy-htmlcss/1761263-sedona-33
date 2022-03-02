@@ -1,0 +1,238 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/pt-sans-regular.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("fonts/pt-sans-bold.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: italic;
+  font-weight: 400;
+  src: url("fonts/pt-sans-italic.woff2") format("woff2");
+}
+@font-face {
+  font-family: "PT Sans";
+  font-style: italic;
+  font-weight: 700;
+  src: url("fonts/pt-sans-bold-italic.woff2") format("woff2");
+  font-display: swap;
+}
+/* PT Sans Narrow */
+@font-face {
+  font-family: "PT Sans Narrow";
+  font-style: normal;
+  font-weight: 700;
+  src: url("fonts/pt-sans-narrow-bold.woff2") format("woff2");
+  font-display: swap;
+}
+html{
+  height: 100%;
+}
+ul{
+  list-style: none;
+  display: flex;
+flex-wrap: wrap;
+margin: 0;
+padding: 0;
+}
+.wrap{
+  width: 1200px;
+  margin: 0;
+}
+section{
+  width: 1200px;
+  
+}
+.advantages-list{
+  flex-wrap: nowrap;
+}
+.navigation {
+display: flex;
+width: 1060px;
+height: 70px;
+margin: 0 auto;
+list-style: none;
+}
+.navigation-user{
+  max-width: 264px;
+  margin-left: auto;
+}
+.logo {
+  display: block;
+  margin: 0 auto;
+}
+.feature-real-city{
+  width: 1200px;
+  height: 384px;
+  background-color: #83B3D3;
+  display: flex;
+  justify-content: space-between;
+}
+.feature-bridge{
+  width: 1200px;
+  height: 384px;
+  background-color: #83B3D3;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  margin-left: auto;
+}
+.main-index{
+  color: black;
+  background-color: white;
+  background-image: url("images/background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  margin-left: auto;
+}
+.appointment{
+  color: black;
+  background-color: white;
+  width: 1200px;
+  height: 411px;
+  background-image: url("images/background-footer.jpg");
+  background-repeat: no-repeat;
+}
+.inner-header {
+  color: black;
+background-color: white;
+width: 1200px;
+height: 408px;
+background-image: url("images/catalog-background1.jpg");
+}
+html{
+  height: 100%;
+}
+
+body{
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  font-family: "PT Sans" sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+  background-color: white;
+  text-align: center;
+}
+
+.page-header{
+  color: black;
+  background: white;
+  font-family: "PT Sans" sans-serif;
+font-weight: 700;
+font-size: 20px;
+line-height: 26px;
+}
+.navigation-link{
+  font-family: "PT Sans" sans-serif;
+  color: black;
+  background: white;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  text-decoration: none;
+}
+.visually-hidden-1{
+  font-family: "PT Sans";
+  color: black;
+  background: white;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  margin-top: 80px;
+
+}
+.advantages-description{
+  font-family: "PT Sans";
+  color: black;
+  background: white;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 36px;
+  text-align: center;
+  margin-top: 31px;
+  margin-bottom: 80px;
+}
+.feature-header{
+  font-family: "PT Sans" sans-serif;
+  color: black;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  
+}
+.hotels-header{
+  font-family: "PT Sans" sans-serif;
+  color: black;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+}
+.hotels-date{
+  font-family: "PT Sans"sans-serif;
+font-family: 400;
+font-size: 22px;
+line-height: 26px;
+}
+.ie11-hack{
+  font-family: "PT Sans" sans-serif;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+}
+.appointment-title{
+  font-family: "PT Sans" sans-serif;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+}
+.appointment-info{
+  font-family: "PT Sans" sans-serif;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+}
+.button{
+  font-family: "PT Sans" sans-serif;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+}
+.footer-social-phone{
+  font-family: "PT Sans" sans-serif;
+  color: black;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  text-decoration: none;
+}
+.about-text{
+  text-decoration: none;
+}
+
+.inner-header-title{
+  font-family: "PT Sans" sans-serif;
+  color: white;
+}
+.main-container{
+  flex-grow: 1;
+}
