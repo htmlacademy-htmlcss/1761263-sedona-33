@@ -269,23 +269,15 @@ line-height: 26px;
   background-color: #81b4d3;
 }
 .advantages-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   margin: 0;
   padding: 0;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 
 .advantage-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
@@ -325,13 +317,8 @@ line-height: 26px;
 }
 
 .feature-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   margin: 0;
   padding: 0;
@@ -408,13 +395,6 @@ line-height: 26px;
 }
 
 .advantage-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   margin: 0;
   padding: 0;
@@ -459,6 +439,7 @@ line-height: 26px;
   line-height: 36px;
   text-align: center;
   color: #000000;
+  list-style: none;
 }
 
 .search-date {
@@ -472,10 +453,6 @@ line-height: 26px;
 
 .form-show {
   display: block;
-  -webkit-animation-name: show;
-  animation-name: show;
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
 }
 
 .hotel-button {
