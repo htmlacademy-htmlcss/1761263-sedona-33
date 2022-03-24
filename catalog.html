@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <title>HTML Academy: Седона</title>
   <link rel="stylesheet" href="styles.css">
-  <link rel="icon" href="images/favicon.png">
+  <link rel="icon" href="images/favicon.ico">
 </head>
 <body>
   <header class="page-header">
@@ -60,7 +60,6 @@
       </ul>
     </nav>
   </header>
-
   <main class="main-inner main-container">
     <div class="page-container">
       <header class="inner-header">
@@ -75,7 +74,9 @@
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
                 role="img"
-                aria-label="Главная страница.">
+                aria-label="Главная страница."
+                
+                
                 <path d="M6 .3 0 5.8V12h12V5.8L6 .3ZM11 11H1V6.2l5-4.5 5 4.5V11Z"/>
                 <path d="M4 10h1V7.5h2V10h1V6.5H4V10Z"/></svg>
               <span class="visually-hidden">Главная</span>
@@ -85,7 +86,8 @@
                 height="8"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                role="img">
+                role="img"
+                aria-label="Главная.">
                 <path d="m4.79998 3.60005-3.8-3.4c-.2-.2-.6-.2-.9 0-.3.2-.2.6 0 .8l3.3 3-3.2 3c-.2.2-.2.6 0 .8 0 .1.3.2.4.2.1 0 .3-.1.4-.2l3.8-3.4c.3-.2.3-.6 0-.8Z"
                 fill="#fff"/>
             </svg>
@@ -186,9 +188,9 @@
         <div class="inner-background">
           <div class="sorting-hotel">
             <p class="find-hotel">Найдено гостиниц: 38</p>
-
             <select class="select-control" aria-label="Сортировка" required>
               <option value="cheap">Сначала дешёвые</option>
+              <option value="cheap">Сначала дорогие</option>
             </select>
 
             <div class="buttons-show-wrapper">
@@ -289,6 +291,7 @@
             <span class="select-control-hotel">Гостиниц на странице:</span>
             <select class="select-control" aria-label="Количество гостиниц" required>
               <option value="4">4</option>
+              <option value="3">3</option>
             </select>
           </div>
         </div>

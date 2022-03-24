@@ -2,7 +2,7 @@
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  src: url("fonts/ptsans-400.woff2") format("woff2");
   font-display: swap;
 }
 
@@ -10,7 +10,7 @@
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  src: url("fonts/ptsans-700.woff2") format("woff2");
   font-display: swap;
 }
 
@@ -104,6 +104,7 @@ body {
   text-decoration: none;
   display: block;
   padding: 20px 17px;
+  
 }
 
 
@@ -503,6 +504,12 @@ body {
 }
 
 .field {
+  background-color: white;
+  color: black;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  font-family: "PT Sans", sans-serif;
   width: 559px;
   height: 60px;
   padding: 0;
