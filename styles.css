@@ -84,10 +84,10 @@ body {
 
 .navigation-list {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: flex-start;
   justify-content: flex-start;
-  width: 345px;
+  width: 390px;
 }
 
 .navigation-user {
@@ -105,6 +105,7 @@ body {
   display: block;
   padding: 20px 17px;
 }
+
 
 .navigation-link:hover {
   color: #756257;
@@ -192,10 +193,12 @@ body {
 .main-container {
   flex-grow: 1;
   padding-top: 51px;
-  margin-top: -5px;
+  margin-top: -4px;
   z-index: 1;
 }
-
+.promo-first{
+  margin-top: -54px;
+}
 .page-container {
   width: 1200px;
   margin: 0 auto;
@@ -628,7 +631,7 @@ body {
   font-weight: 400;
   text-decoration: none;
   display: block;
-  width: 331px;
+  width: 350px;
   text-align: center;
   margin-left: 179px;
   padding: 15px;
@@ -693,6 +696,8 @@ body {
   background-image: url("images/catalog-background.jpg");
   background-repeat: no-repeat;
   padding-top: 35px;
+  margin: 0 auto;
+  width: 1200px;
 }
 
 .inner-header-title {
