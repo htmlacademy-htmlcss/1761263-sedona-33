@@ -51,7 +51,7 @@ width: 1060px;
 height: 70px;
 margin: 0 auto;
 margin-left: 71px;
-margin-bottom: 2px;
+margin-bottom: 6px;
 }
 
 .page-logo {
@@ -181,6 +181,7 @@ margin: auto;
 fill: #000000;
 }
 .promo-first {
+  display: flex;
   width: 1200px;
   min-height: 508px;
   background-image: url("images/shape.svg"), url("images/background-top.jpg");
